@@ -2,22 +2,15 @@ function filterArray(arrayToBeFiltered) {
     const set = new Set();
 
     while(set.size !=5 ){ 
-        set.add(Math.floor(Math.random() * (185 - 142) + 142));
+        let randomNum = Math.floor(Math.random() * (185 - 142) + 142);
+        let index = arrayToBeFiltered.findIndex(x => x.id === randomNum);
+        set.add(arrayToBeFiltered[index]);
     }
 
-    const colorCodes = [];
-    set.forEach(element => {
+    let colorCodes = Array.from(set);
+    return colorCodes;
 
-        arrayToBeFiltered.forEach(colorCode => {
-            if(element == colorCode.id){
-                colorCodes.push(colorCode);
-            }
-                
-        });
-    });
-
-   return colorCodes;
-    
 }
+    
 
 module.exports = filterArray;
