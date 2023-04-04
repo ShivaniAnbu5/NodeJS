@@ -2,19 +2,19 @@ let fs = require("fs");
 let http = require("http");
 
         let readColorCodesFromJson = require("./readFile");
-        let colorCodes = JSON.parse(readColorCodesFromJson("color_palette.json"));
-
-       if(colorCodes!=null){
-           let shuffle = require("./shuffleArray");
-           var shuffledArray = shuffle(colorCodes);
+        let colorCodes = readColorCodesFromJson("color_palette.json");
+       
+        if(colorCodes!=null){
+           let filterArray = require("./filterArray");
+           var filteredArray = filterArray(colorCodes);
    
            let writeFile = require("./writeFile");
-           writeFile(shuffledArray);
+           writeFile(filteredArray);
    
-           let randomColorCodes = JSON.parse(readColorCodesFromJson("randomized_color_ palette.json"));
+           let randomColorCodes = readColorCodesFromJson("randomized_color_ palette.json");
    
-           console.log(randomColorCodes);
+           console.log(JSON.stringify(randomColorCodes,null,2));
        }
        else{
-        console.log("Couldn't complete the process")
+        console.log("Couldn't complete the process");
        }
