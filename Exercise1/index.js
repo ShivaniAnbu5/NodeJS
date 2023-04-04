@@ -1,5 +1,4 @@
 let fs = require("fs");
-let http = require("http");
 
         let readColorCodesFromJson = require("./readFile");
         let colorCodes = readColorCodesFromJson("color_palette.json");
@@ -13,7 +12,7 @@ let http = require("http");
    
            let randomColorCodes = readColorCodesFromJson("randomized_color_ palette.json");
    
-           console.log(JSON.stringify(randomColorCodes,null,2));
+           console.log(JSON.stringify(randomColorCodes,null,1));
        }
        else{
         console.log("Couldn't complete the process");
