@@ -1,4 +1,4 @@
-function filterArray(filterArray) {
+function filterArray(arrayToBeFiltered) {
     const set = new Set();
 
     while(set.size !=5 ){ 
@@ -8,7 +8,7 @@ function filterArray(filterArray) {
     const colorCodes = [];
     set.forEach(element => {
 
-        filterArray.forEach(colorCode => {
+        arrayToBeFiltered.forEach(colorCode => {
             if(element == colorCode.id){
                 colorCodes.push(colorCode);
             }
