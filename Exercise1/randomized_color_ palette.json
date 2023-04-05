@@ -1,1 +1,37 @@
-[{"color":"darkslategray 1","code":{"hex":"#97FFFF"},"id":172},{"color":"turquoise 1","code":{"hex":"#00F5FF"},"id":153},{"color":"cadetblue","code":{"hex":"#5F9EA0"},"id":157},{"color":"paleturquoise 3","code":{"hex":"#96CDCD"},"id":169},{"color":"peacock","code":{"hex":"#33A1C9"},"id":142}]
+[
+  {
+    "color": "lightblue",
+    "code": {
+      "hex": "#ADD8E6"
+    },
+    "id": 143
+  },
+  {
+    "color": "darkslategray 1",
+    "code": {
+      "hex": "#97FFFF"
+    },
+    "id": 172
+  },
+  {
+    "color": "turquoise 2",
+    "code": {
+      "hex": "#00E5EE"
+    },
+    "id": 154
+  },
+  {
+    "color": "darkturquoise",
+    "code": {
+      "hex": "#00CED1"
+    },
+    "id": 158
+  },
+  {
+    "color": "turquoise 1",
+    "code": {
+      "hex": "#00F5FF"
+    },
+    "id": 153
+  }
+]

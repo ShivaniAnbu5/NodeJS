@@ -1,19 +1,16 @@
-let fs = require("fs");
+//Import the functions
+let readColorCodesFromJson = require("./readFile");
+let filterArray = require("./filterArray");
+let writeFile = require("./writeFile");
 
-        let readColorCodesFromJson = require("./readFile");
-        let colorCodes = readColorCodesFromJson("color_palette.json");
-       
-        if(colorCodes!=null){
-           let filterArray = require("./filterArray");
-           var filteredArray = filterArray(colorCodes);
+
+async function generateRandomColors(){
+   let readData= await readColorCodesFromJson('color_palette.json', 'utf8');
+   let colorcodes = filterArray(readData);
+   writeFile(colorcodes);
+   readData = await readColorCodesFromJson("randomized_color_ palette.json","utf-8");
+   console.log(readData);
    
-           let writeFile = require("./writeFile");
-           writeFile(filteredArray);
-   
-           let randomColorCodes = readColorCodesFromJson("randomized_color_ palette.json");
-   
-           console.log(JSON.stringify(randomColorCodes,null,1));
-       }
-       else{
-        console.log("Couldn't complete the process");
-       }
+}
+
+generateRandomColors();
