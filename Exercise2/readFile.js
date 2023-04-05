@@ -1,15 +1,11 @@
-let fs = require("fs");
+const fs = require('fs');
 
-const readJsonFile = (file) => {
-
-    try{
-       let data =  fs.readFileSync(file,"UTF-8");
-       return data;
-    }
-    catch(err){
-        console.log("File problem! "+err);
-        return null;
-    }
-}
+// Reads from a json file
+const readJsonFile = (path, type) => new Promise((resolve, reject) => {
+    fs.readFile(path, type, (err, file) => {
+      if (err) reject(err)
+      resolve(file)
+    })
+  })
 
 module.exports = readJsonFile;
