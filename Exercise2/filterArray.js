@@ -8,10 +8,7 @@ function filterArray(arrayToBeFiltered) {
         let index = arrayToBeFiltered.findIndex(x => x.id === randomNum);
         set.add(arrayToBeFiltered[index]);
     }
-
-    let array = Array.from(set);
-    return array;
-
+    return set;
 }
     
 module.exports = filterArray;
