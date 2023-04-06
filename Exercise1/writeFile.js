@@ -1,4 +1,4 @@
-const {appendFileSync,writeFileSync,writeFile} = require("fs");
+const {writeFileSync} = require("fs");
 
 // Uses writeFileSync to write to a file
 const writeToJsonFile = (filteredArray) => {
