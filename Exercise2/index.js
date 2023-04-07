@@ -6,11 +6,18 @@ http.createServer((req, res, err) => {
     if(err) console.log(err);
 
     async function generateRandomColors(){
-        let readData= await readColorCodesFromJson('color_palette.json', 'utf8');
-        let filteredArray = filterArray(readData);
-        console.log([...filteredArray]);
-        res.write(JSON.stringify([...filteredArray],null,1));
-        res.end();
+
+        try{
+            let readData= await readColorCodesFromJson('color_palette.json', 'utf8');
+            let filteredArray = filterArray(readData);
+            res.write(JSON.stringify([...filteredArray],null,1));
+            res.end();
+        }
+        catch(err){
+            console.log(err);
+            res.write("File error");
+            res.end();
+        }
      }
      
      generateRandomColors();
