@@ -15,7 +15,7 @@ http.createServer((req, res, err) => {
         }
         catch(err){
             console.log(err);
-            res.write("File error");
+            res.write("Unable to complete the action");
             res.end();
         }
      }
