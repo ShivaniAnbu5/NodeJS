@@ -4,7 +4,7 @@ const app = express();
 const cors = require('cors');
 const {infoLogger} = require("./utils/logger");
 
-const auth = require('./controllers/auth');
+const auth = require('./routes/auth');
 const tasksRoutes = require("./routes/tasksRoutes");
 
 require('dotenv').config();
