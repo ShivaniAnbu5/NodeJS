@@ -1,0 +1,166 @@
+error: Apr-07-2023 08:10:24: 	500 - OK - fs is not defined - /authentication/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 08:11:12: 	500 - OK - fs is not defined - /authentication/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 08:14:15: 	500 - OK - ENOENT: no such file or directory, open 'data/user_auth_data.js' - /authentication/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 08:16:47: 	500 - OK - Unexpected token o in JSON at position 1 - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 08:17:12: 	500 - OK - Unexpected token o in JSON at position 1 - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 08:17:41: 	500 - OK - Unexpected token o in JSON at position 1 - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 08:17:56: 	500 - OK - fileData.push is not a function - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 13:58:12: 	500 - OK - Unexpected end of JSON input - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 13:58:39: 	500 - OK - Unexpected end of JSON input - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 13:58:59: 	500 - OK - Unexpected end of JSON input - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 13:59:27: 	500 - OK - Unexpected end of JSON input - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 13:59:45: 	500 - OK - Unexpected end of JSON input - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:00:02: 	500 - OK - Unexpected token o in JSON at position 1 - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:00:35: 	500 - OK - Unexpected token o in JSON at position 1 - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:01:33: 	500 - OK - Unexpected token o in JSON at position 1 - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:01:58: 	500 - OK - bcrypt is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:02:29: 	500 - OK - bcrypt is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:12:33: 	500 - OK - Cannot set headers after they are sent to the client - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:12:48: 	500 - OK - Cannot set headers after they are sent to the client - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:13:29: 	500 - OK - Cannot set headers after they are sent to the client - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:27:45: 	500 - undefined - Cannot read properties of undefined (reading 'password') - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:28:29: 	500 - undefined - Cannot read properties of undefined (reading 'password') - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:28:49: 	500 - undefined - Cannot read properties of undefined (reading 'password') - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:29:17: 	500 - undefined - Cannot read properties of undefined (reading 'password') - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:29:37: 	500 - undefined - Cannot read properties of undefined (reading 'password') - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:50:20: 	500 - OK - userData is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:51:09: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:51:54: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:52:44: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:53:00: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:53:05: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:53:47: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:53:48: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:54:09: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 15:57:04: 	500 - undefined - Cannot read properties of undefined (reading 'split') - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 15:57:35: 	500 - undefined - Cannot read properties of undefined (reading 'split') - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 15:57:53: 	500 - undefined - Cannot read properties of undefined (reading 'split') - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:01:11: 	500 - undefined - data is not defined - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:01:22: 	500 - undefined - data is not defined - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:01:29: 	500 - undefined - data is not defined - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:02:06: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:02:35: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:02:39: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:02:41: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:02:59: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:05:51: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:06:08: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:06:25: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:07:35: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:08:21: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.json' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:09:27: 	500 - undefined - data is not defined - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:09:36: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:10:43: 	500 - undefined - The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:10:55: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:12:36: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:12:50: 	500 - undefined - The "cb" argument must be of type function. Received undefined - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:13:02: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:27:47: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:28:43: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:30:51: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:35:03: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:35:15: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:35:21: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:40:12: 	500 - undefined - ENOENT: no such file or directory, open 'data/user_auth_data.json' - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 16:42:59: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:43:25: 	500 - undefined - ENOENT: no such file or directory, open './data/user_auth_data' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:43:30: 	500 - undefined - ENOENT: no such file or directory, open 'data/user_auth_data' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:43:48: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:45:54: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:46:01: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:48:14: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:49:05: 	500 - undefined - userData.findIndex is not a function - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:49:19: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:49:52: 	500 - undefined - Cannot read properties of undefined (reading 'token') - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:58:39: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.json' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:59:49: 	500 - undefined - Cannot read properties of undefined (reading 'token') - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 17:00:32: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 17:01:00: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 17:26:46: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddies.json' - /tasks/read - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 20:47:38: 	500 - undefined - token is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 20:47:49: 	500 - undefined - token is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 20:48:16: 	500 - undefined - token is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 20:48:39: 	500 - undefined - token is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 21:31:00: 	500 - undefined - Cannot read properties of undefined (reading 'split') - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:33:18: 	500 - undefined - Cannot read properties of undefined (reading 'split') - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:34:04: 	500 - undefined - Cannot read properties of undefined (reading 'split') - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:34:21: 	500 - undefined - jwt is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:34:42: 	500 - undefined - config is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:35:01: 	500 - undefined - jwt expired - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:35:59: 	500 - undefined - ENOENT: no such file or directory, open './data/tasks.json' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:36:27: 	500 - undefined - userData is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:36:45: 	500 - undefined - userData is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:37:01: 	500 - undefined - userData is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:08:01: 	500 - undefined - userData.findIndex is not a function - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:08:47: 	500 - undefined - userData.findIndex is not a function - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:09:03: 	500 - undefined - userData.findIndex is not a function - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:09:18: 	500 - undefined - userData.findIndex is not a function - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:09:38: 	500 - undefined - userData.findIndex is not a function - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:15:37: 	500 - undefined - userData.findIndex is not a function - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:16:07: 	500 - undefined - userData.findIndex is not a function - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:16:33: 	500 - undefined - userData.findIndex is not a function - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:17:17: 	500 - undefined - userData.findIndex is not a function - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:37:51: 	500 - undefined - err is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:38:07: 	500 - undefined - err is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:38:21: 	500 - undefined - err is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:38:42: 	500 - undefined - jwt expired - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:39:25: 	500 - undefined - jwt expired - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:39:30: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddies.json' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:40:08: 	500 - undefined - jwt expired - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:40:28: 	500 - undefined - ENOENT: no such file or directory, open 'data/user_authdata.json' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 23:32:29: 	500 - undefined - userData is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 23:32:37: 	500 - undefined - userData is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 23:32:38: 	500 - undefined - userData is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:17:45: 	500 - undefined - jwt expired - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-10-2023 00:18:04: 	500 - undefined - services.createService is not a function - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-10-2023 00:45:17: 	500 - undefined - Cannot read properties of undefined (reading 'readDetails') - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:46:02: 	500 - undefined - Cannot read properties of undefined (reading 'readDetails') - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:46:41: 	500 - undefined - Cannot read properties of undefined (reading 'readDetails') - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:49:17: 	500 - OK - The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Array - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:49:37: 	500 - OK - fileData is not defined - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:49:47: 	500 - OK - fileData is not defined - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:51:02: 	500 - OK - fileData is not defined - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:55:27: 	500 - undefined - username is not defined - /tasks/task/1 - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:59:49: 	500 - undefined - taskIndex is not defined - /tasks/task/1 - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 01:00:10: 	500 - undefined - taskIndex is not defined - /tasks/task/1 - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 01:00:21: 	500 - undefined - taskIndex is not defined - /tasks/task/1 - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 01:01:26: 	500 - undefined - taskIndex is not defined - /tasks/task/1 - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 01:01:38: 	500 - undefined - taskIndex is not defined - /tasks/task/1 - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 01:21:23: 	500 - undefined - jwt expired - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 01:31:36: 	500 - undefined - jwt expired - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:39:34: 	500 - undefined - title is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:41:37: 	500 - undefined - Unexpected token o in JSON at position 1 - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:42:15: 	500 - undefined - Unexpected token o in JSON at position 1 - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:51:03: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:51:49: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:52:28: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:53:52: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:54:18: 	500 - OK - taskData is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:55:14: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:55:48: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:56:16: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:57:20: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:57:47: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:58:04: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:58:39: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 02:00:11: 	500 - undefined - jwt expired - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 02:00:15: 	500 - undefined - invalid token - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 02:00:32: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 02:01:32: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 02:02:16: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 02:03:04: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:49:16: 	500 - undefined - jwt expired - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:49:55: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:50:50: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:50:55: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:51:30: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:54:30: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:54:51: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:01:06: 	500 - undefined - Cannot convert undefined or null to object - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:01:33: 	500 - undefined - Cannot convert undefined or null to object - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:16:06: 	500 - undefined - key is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:16:36: 	500 - undefined - key is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:19:59: 	500 - undefined - jwt expired - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:22:46: 	500 - undefined - tasks is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:23:04: 	500 - undefined - tasks is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:23:12: 	500 - undefined - tasks is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
