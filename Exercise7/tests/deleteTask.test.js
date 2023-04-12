@@ -34,16 +34,26 @@ let data = [
 ];
 
 describe("Deleting Task", () => {
-    test("delete test",async ()=>{
+    test("delete by valid id test",async ()=>{
         let fileStub = sinon.stub(fileActions);
         fileStub.readFile.returns(Promise.resolve(data));
         fileStub.writeFile.returns(Promise.resolve("data written"));
-
         let res = await taskServices.deleteDetailsById(0, 1);
-        expect(res).toEqual({status:true,message:JSON.stringify(data.splice(0,1))});
+        expect(res).toEqual({status:true,message:JSON.stringify(data)});
 
         fileStub.readFile.restore();
         fileStub.writeFile.restore();
     });
+
+    test("delete task by invalid id test",async ()=>{
+      let fileStub = sinon.stub(fileActions);
+      fileStub.readFile.returns(Promise.resolve(data));
+      fileStub.writeFile.returns(Promise.resolve("data written"));
+      let res = await taskServices.deleteDetailsById(0, 100);
+      expect(res).toEqual({status:true,message:"Task with id "+100+" could not be found!"});
+
+      fileStub.readFile.restore();
+      fileStub.writeFile.restore();
+  });
 
 });

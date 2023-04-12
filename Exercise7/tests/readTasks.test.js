@@ -47,6 +47,18 @@ describe("Reading Tasks", () => {
         fileStub.writeFile.restore();
     });
 
+    test("reading tasks but file has no data",async ()=>{
+      let fileStub = sinon.stub(fileActions);
+      fileStub.readFile.returns(Promise.resolve("[]"));
+      fileStub.writeFile.returns(Promise.resolve("data written"));
+
+      let res = await taskServices.readDetails(0);
+      expect(res).toEqual({status:false,message:"Error occured in reading tasks"});
+
+      fileStub.readFile.restore();
+      fileStub.writeFile.restore();
+  });
+
     test("reading task by id",async ()=>{
         let fileStub = sinon.stub(fileActions);
         fileStub.readFile.returns(Promise.resolve(data));
@@ -58,5 +70,17 @@ describe("Reading Tasks", () => {
         fileStub.readFile.restore();
         fileStub.writeFile.restore();
     });
+
+    test("reading task by id not present",async ()=>{
+      let fileStub = sinon.stub(fileActions);
+      fileStub.readFile.returns(Promise.resolve(data));
+      fileStub.writeFile.returns(Promise.resolve("data written"));
+
+      let res = await taskServices.readSpecificDetailsById(0, 5);
+      expect(res).toEqual({status:true,message:"Task with id "+5+" could not be found!"});
+
+      fileStub.readFile.restore();
+      fileStub.writeFile.restore();
+  });
 
 });

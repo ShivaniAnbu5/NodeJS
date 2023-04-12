@@ -86,6 +86,7 @@ const deleteDetailsById = async(userIndex,id) => {
         if(taskIndex!=-1)
         {
             tasksData[userIndex].tasks.splice(taskIndex,1);
+            tasksData[userIndex].taskCount--;
             await fileActions.writeFile("data/user_tasks_data.json",tasksData);
             response = {status:true,message:JSON.stringify(tasksData)};
         }
@@ -95,7 +96,7 @@ const deleteDetailsById = async(userIndex,id) => {
     }
     catch(err){
         console.log(err);
-        response={status:false,message:"Error occured in deleting specific task by id"};
+        response={status:false,message:"Error occured in deleting specific task by id"+err};
     }
     return response;
 };

@@ -54,5 +54,16 @@ describe("Updating Tasks", () => {
         fileStub.readFile.restore();
         fileStub.writeFile.restore();
     });
+    test("updating task by id that's not present",async ()=>{
+      let fileStub = sinon.stub(fileActions);
+      fileStub.readFile.returns(Promise.resolve(data));
+      fileStub.writeFile.returns(Promise.resolve("data written"));
+
+      let res = await taskServices.updateDetailsByIdService(taskData,0, 100);
+      expect(res).toEqual({status:true,message:"Task with id "+100+" could not be found!"});
+
+      fileStub.readFile.restore();
+      fileStub.writeFile.restore();
+  });
 
 });

@@ -375,3 +375,21 @@ error: Apr-12-2023 18:37:54: 	undefined - undefined - Cannot read properties of 
 error: Apr-12-2023 18:39:20: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
 error: Apr-12-2023 18:39:46: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
 error: Apr-12-2023 18:40:12: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:47:13: 	undefined - undefined - jwt expired - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:51:29: 	Error occured in reading tasks - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:51:30: 	Error occured in reading tasks - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:51:31: 	Error occured in reading tasks - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:51:31: 	Error occured in reading tasks - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:51:31: 	Error occured in reading tasks - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:51:31: 	Error occured in reading tasks - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:56:11: 	undefined - undefined - jwt expired - /tasks/task/1 - PUT - ::ffff:127.0.0.1
+error: Apr-12-2023 19:01:23: 	undefined - undefined - jwt expired - /tasks/task/81 - DELETE - ::ffff:127.0.0.1
+error: Apr-12-2023 19:05:18: 	undefined - undefined - jwt expired - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:06:09: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:06:10: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:06:12: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:08:13: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:08:17: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:08:17: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:08:18: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:27:12: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1

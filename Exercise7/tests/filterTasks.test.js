@@ -46,7 +46,7 @@ let filteredData  = [{
   }];
   
 describe("Filtering Tasks", () => {
-    test("updating task by id",async ()=>{
+    test("filtering task by specifying field",async ()=>{
         let fileStub = sinon.stub(fileActions);
         fileStub.readFile.returns(Promise.resolve(data));
         fileStub.writeFile.returns(Promise.resolve("data written"));
@@ -57,5 +57,29 @@ describe("Filtering Tasks", () => {
         fileStub.readFile.restore();
         fileStub.writeFile.restore();
     });
+
+    test("filtering task without specifying field",async ()=>{
+      let fileStub = sinon.stub(fileActions);
+      fileStub.readFile.returns(Promise.resolve(data));
+      fileStub.writeFile.returns(Promise.resolve("data written"));
+
+      let res = await taskServices.filterTasks({},0);
+      expect(res).toEqual({status:false,message:"Error occured in filtering tasks"});
+
+      fileStub.readFile.restore();
+      fileStub.writeFile.restore();
+  });
+
+  test("filtering task with field but file doesn't contain a task with that field",async ()=>{
+    let fileStub = sinon.stub(fileActions);
+    fileStub.readFile.returns(Promise.resolve(data));
+    fileStub.writeFile.returns(Promise.resolve("data written"));
+
+    let res = await taskServices.filterTasks({"priority":"low"},0);
+    expect(res).toEqual({status:true,message:"No results"});
+
+    fileStub.readFile.restore();
+    fileStub.writeFile.restore();
+  });
 
 });
