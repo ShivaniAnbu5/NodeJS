@@ -313,3 +313,65 @@ error: Apr-12-2023 14:17:00: 	undefined - undefined - jwt expired - /tasks/pagin
 error: Apr-12-2023 14:19:03: 	Error occured in paginating tasks - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
 error: Apr-12-2023 14:19:05: 	Error occured in paginating tasks - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
 error: Apr-12-2023 14:20:51: 	Error occured in paginating tasks - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 15:19:00: 	undefined - undefined - jwt expired - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 15:42:17: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 15:42:23: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 15:42:25: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 15:42:39: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 15:42:44: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 15:44:30: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::1
+error: Apr-12-2023 15:45:03: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::1
+error: Apr-12-2023 15:45:26: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:46:10: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:47:46: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:52:17: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:52:55: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:53:26: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:53:33: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:53:57: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:55:02: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:55:53: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:56:26: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:56:37: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:57:04: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:58:39: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 16:01:59: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 16:03:55: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 16:04:05: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:14:12: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:14:45: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:15:11: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:16:09: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:16:32: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:19:00: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:20:41: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:22:38: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:22:50: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:23:51: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:26:25: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:36:05: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:36:20: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:36:33: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:39:19: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:39:30: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:40:26: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:40:46: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:42:44: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:42:59: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 18:16:36: 	undefined - undefined - jwt expired - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 18:28:27: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:30:07: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:30:28: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:31:13: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:31:34: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:31:55: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:32:17: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:33:21: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:34:18: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:34:45: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:36:03: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:36:39: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:37:54: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:39:20: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:39:46: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:40:12: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1

@@ -4,9 +4,10 @@ let {logger} = require('../utils/logger');
 let services = require('../services/tasksServices');
 const {readFile} = require('../utils/fileActions');
 const constants = require('../constants/constants');
+const validate = require('../utils/validation');
 
 const createDetails = async(req, res) => {
-        let token,response;
+        let token,response={};
         try{
             let userData = await readFile("data/user_auth_data.json","utf-8");
             let tasksData = await readFile("data/user_tasks_data.json","utf-8");
@@ -15,15 +16,23 @@ const createDetails = async(req, res) => {
                 const decoded = jwt.verify(token, process.env.TOKEN_KEY);
                 let userIndex = userData.findIndex(item => item.username === decoded.username);
                 if(userIndex!=-1){
-                    response = await services.createDetailsService(req.body,userIndex);
-                    if(response.status){
-                        res.status(201);
-                        logger.info(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                    let result = validate(req.body);
+                    console.log("Body: "+JSON.stringify(req.body));
+                    if(result){
+                        response = await services.createDetailsService(req.body,userIndex);
+                        if(response.status){
+                            res.status(201);
+                            logger.info(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                        }
+                        else{
+                            res.status(500);
+                            logger.error(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                        } 
                     }
                     else{
-                        res.status(500);
-                        logger.error(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-                    }   
+                        response.message = "Fill all the fields";
+                    }
+                      
                 }
                 else{
                     response.message = constants.USER_AUTH_FAILED;
@@ -37,6 +46,7 @@ const createDetails = async(req, res) => {
             }
         }
         catch(err){
+            console.log(err);
             logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
             res.status(404).send(constants.FILE_NOT_FOUND);
         }

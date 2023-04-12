@@ -93,7 +93,7 @@ describe("Paginating Tasks", () => {
         fileStub.writeFile.restore();
     });
 
-    test("pagination with limit greater thn actual data",async ()=>{
+    test("pagination within limit",async ()=>{
       let fileStub = sinon.stub(fileActions);
       fileStub.readFile.returns(Promise.resolve(data));
       fileStub.writeFile.returns(Promise.resolve("data written"));
