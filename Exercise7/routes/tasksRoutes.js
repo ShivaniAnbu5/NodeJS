@@ -18,4 +18,8 @@ router.get('/sort', controller.sortTasks);
 
 router.get('/paginate', controller.paginateTasks);
 
+router.use((req, res) => {
+    res.status(404).send(STATUS.PAGE_NOT_FOUND);
+});
+
 module.exports = router;
