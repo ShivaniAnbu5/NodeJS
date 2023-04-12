@@ -1,243 +1,336 @@
 let fs = require("fs");
 const jwt = require('jsonwebtoken');
-let {errorLogger} = require('../utils/logger');
+let {logger} = require('../utils/logger');
 let services = require('../services/tasksServices');
 const {readFile} = require('../utils/fileActions');
+const constants = require('../constants/constants');
 
 const createDetails = async(req, res) => {
-        let token;
+        let token,response;
         try{
             let userData = await readFile("data/user_auth_data.json","utf-8");
+            let tasksData = await readFile("data/user_tasks_data.json","utf-8");
             try{
-                if(req.headers.authorization != null){
-                    token = req.headers.authorization.split(" ")[1];
-                    const decoded = jwt.verify(token, process.env.TOKEN_KEY);
-                    let objectIndex = userData.findIndex(item => item.username === decoded.username);
-        
-                    if(objectIndex!=-1){
-                        services.createDetailsService(req,res,decoded.username);
+                token = req.headers.authorization.split(" ")[1];
+                const decoded = jwt.verify(token, process.env.TOKEN_KEY);
+                let userIndex = userData.findIndex(item => item.username === decoded.username);
+                if(userIndex!=-1){
+                    response = await services.createDetailsService(req.body,userIndex);
+                    if(response.status){
+                        res.status(201);
+                        logger.info(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
                     }
                     else{
-                        res.send("User authentication failed!");
-                    }
+                        res.status(500);
+                        logger.error(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                    }   
                 }
                 else{
-                    res.send("Token not found");
-                }  
+                    response.message = constants.USER_AUTH_FAILED;
+                    res.status(401);
+                }
+                res.json(response.message);
             }
             catch(err){
-                console.log(err);
-                errorLogger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-                res.send("Token expired..Please login again!");
+                logger.error(`${err.status} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                res.status(401).json(constants.TOKEN_EXPIRED);
             }
         }
         catch(err){
-            console.log(err);
-            errorLogger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-            res.status(404).send("File Not Found");
+            logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+            res.status(404).send(constants.FILE_NOT_FOUND);
         }
  };
 
 const readDetails = async(req, res) => {
-    console.log("inside read controller");
-    let token;
-    try{
-        let userData = await readFile("data/user_auth_data.json","utf-8");
+    let token,response;
         try{
-            if(req.headers.authorization != null){
+            let userData = await readFile("data/user_auth_data.json","utf-8");
+            let tasksData = await readFile("data/user_tasks_data.json","utf-8");
+            try{
                 token = req.headers.authorization.split(" ")[1];
                 const decoded = jwt.verify(token, process.env.TOKEN_KEY);
-                let objectIndex = userData.findIndex(item => item.username === decoded.username);
-    
-
-            if(objectIndex!=-1){
-                    services.readDetails(req,res,decoded.username);         
+                let userIndex = userData.findIndex(item => item.username === decoded.username);
+                if(userIndex!=-1){
+                    response = await services.readDetails(userIndex);
+                    if(response.status){
+                        res.status(200);
+                        logger.info(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                    }
+                    else{
+                        res.status(500);
+                        logger.error(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                    }            
             }
             else{
-                res.send("User authentication failed!");
+                response.message = constants.USER_AUTH_FAILED;
+                res.status(401);
             }
-         }
-         else{
-            res.send("Token not found");
-            }  
+            res.json(response.message);
         }
         catch(err){
             console.log(err);
-            errorLogger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-            res.send("Token expired..Please login again!");
+            logger.error(`${err.status} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+            res.status(401).json(constants.TOKEN_EXPIRED);
         }
     }
 
     catch(err){
-        console.log(err);
-        errorLogger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-        res.status(404).send("File Not Found");
+        logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        res.status(404).send(constants.FILE_NOT_FOUND);
     }
 
    
  };
 
  const readSpecificDetailsById = async(req, res) => {
-    let token;
+    let token,response;
     try{
         let userData = await readFile("data/user_auth_data.json","utf-8");
+        let tasksData = await readFile("data/user_tasks_data.json","utf-8");
         try{
-            if(req.headers.authorization != null){
-                token = req.headers.authorization.split(" ")[1];
-                const decoded = jwt.verify(token, process.env.TOKEN_KEY);
-                let objectIndex = userData.findIndex(item => item.username === decoded.username);
-
-                if(objectIndex!=-1){
+            token = req.headers.authorization.split(" ")[1];
+            const decoded = jwt.verify(token, process.env.TOKEN_KEY);
+            let userIndex = userData.findIndex(item => item.username === decoded.username);
+            if(userIndex!=-1){
                     let id = req.params.id;
                     if(isNaN(id)){
                         res.send("Please enter a valid numeric id");
                     }
                     else{
-                        services.readSpecificDetailsById(req,res,decoded.username);
+                        response = await services.readSpecificDetailsById(userIndex,id);
+                        if(response.status){
+                            res.status(200);
+                            logger.info(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                        }
+                        else{
+                            res.status(500);
+                            logger.error(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                        }     
                     }
                 }
                 else{
-                    res.send("User authentication failed!");
+                    response.message = constants.USER_AUTH_FAILED;
+                    res.status(401);
                 }
-            }
-            else{
-                res.send("Token not found");
-            }  
+                res.json(response.message);
         }
         catch(err){
-            console.log(err);
-            errorLogger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-            res.send("Token expired..Please login again!");
+            logger.error(`${err.status} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+            res.status(401).json(constants.TOKEN_EXPIRED);
         }
     }
+
     catch(err){
-        console.log(err);
-        errorLogger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-        res.status(404).send("File Not Found");
+        logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        res.status(404).send(constants.FILE_NOT_FOUND);
     }
 
  };
 
- const updateDetailsById = async(req, res, err) => {
-    console.log("inside update by id");
-    let token;
+ const updateDetailsById = async(req, res) => {
+    let token,response;
     try{
         let userData = await readFile("data/user_auth_data.json","utf-8");
+        let tasksData = await readFile("data/user_tasks_data.json","utf-8");
         try{
-            if(req.headers.authorization != null){
-                token = req.headers.authorization.split(" ")[1];
-                const decoded = jwt.verify(token, process.env.TOKEN_KEY);
-                let objectIndex = userData.findIndex(item => item.username === decoded.username);
-
-                if(objectIndex!=-1){
+            token = req.headers.authorization.split(" ")[1];
+            const decoded = jwt.verify(token, process.env.TOKEN_KEY);
+            let userIndex = userData.findIndex(item => item.username === decoded.username);
+            if(userIndex!=-1){
                     let id = req.params.id;
                     if(isNaN(id)){
                         res.send("Please enter a valid numeric id");
                     }
                     else{
-                        services.updateDetailsByIdService(req,res,decoded.username); 
+                        response = await services.updateDetailsByIdService(req.body,userIndex,id); 
+                        if(response.status){
+                            res.status(200);
+                            logger.info(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                        }
+                        else{
+                            res.status(500);
+                            logger.error(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                        }     
                     }
                 }
                 else{
-                    res.send("User authentication failed!");
+                    response.message = constants.USER_AUTH_FAILED;
+                    res.status(401);
                 }
-            }
-            else{
-                res.send("Token not found");
-            }  
+                res.json(response.message);
         }
         catch(err){
-            console.log(err);
-            errorLogger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-            res.send("Token expired..Please login again!");
+            logger.error(`${err.status} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+            res.status(401).json(constants.TOKEN_EXPIRED);
         }
     }
+
     catch(err){
-        console.log(err);
-        errorLogger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-        res.status(404).send("File Not Found");
+        logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        res.status(404).send(constants.FILE_NOT_FOUND);
     }
-    
+
  };
-
- const deleteDetails = async(req,res) => {
-    console.log("inside delete");
-    let token;
-    try{
-        let userData = await readFile("data/user_auth_data.json","utf-8");
-        try{
-            if(req.headers.authorization != null){
-                token = req.headers.authorization.split(" ")[1];
-                const decoded = jwt.verify(token, process.env.TOKEN_KEY);
-                let objectIndex = userData.findIndex(item => item.username === decoded.username);
-
-
-                if(objectIndex!=-1){
-                    services.deleteDetails(decoded.username);
-                }
-                else{
-                    res.send("User authentication failed!");
-                }
-             }
-            else{
-                res.send("Token not found");
-            }  
-        }
-        catch(err){
-            console.log(err);
-            errorLogger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-            res.send("Token expired..Please login again!");
-        }
-    }
-    catch(err){
-        console.log(err);
-        errorLogger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-        res.status(404).send("File Not Found");
-    }
-}
 
 const deleteDetailsById = async(req, res) => {
-    console.log("inside delete by id");
-    let token;
+    let token,response;
     try{
         let userData = await readFile("data/user_auth_data.json","utf-8");
+        let tasksData = await readFile("data/user_tasks_data.json","utf-8");
         try{
-            if(req.headers.authorization != null){
-                token = req.headers.authorization.split(" ")[1];
-                const decoded = jwt.verify(token, process.env.TOKEN_KEY);
-                let objectIndex = userData.findIndex(item => item.username === decoded.username);
-
-                if(objectIndex!=-1){
-
+            token = req.headers.authorization.split(" ")[1];
+            const decoded = jwt.verify(token, process.env.TOKEN_KEY);
+            let userIndex = userData.findIndex(item => item.username === decoded.username);
+            if(userIndex!=-1){
                     let id = req.params.id;
                     if(isNaN(id)){
                         res.send("Please enter a valid numeric id");
                     }
                     else{
-                        services.deleteDetailsById(req,res,decoded.username); 
+                        response = await services.deleteDetailsById(userIndex,id); 
+                        if(response.status){
+                            res.status(200);
+                            logger.info(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                        }
+                        else{
+                            res.status(500);
+                            logger.error(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                        }     
                     }
                 }
                 else{
-                    res.send("User authentication failed!");
+                    response.message = constants.USER_AUTH_FAILED;
+                    res.status(401);
                 }
-            }
-            else{
-                res.send("Token not found");
-            }  
+                res.send(response.message);
         }
         catch(err){
-            console.log(err);
-            errorLogger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-            res.send("Token expired..Please login again!");
+            logger.error(`${err.status} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+            res.status(401).json(constants.TOKEN_EXPIRED);
         }
     }
+
     catch(err){
-        console.log(err);
-        errorLogger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
-        res.status(404).send("File Not Found");
+        logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        res.status(404).send(constants.FILE_NOT_FOUND);
     }
     
  };
 
+const filterTasks = async(req,res)=>{
+    let token,response;
+    try{
+        let userData = await readFile("data/user_auth_data.json","utf-8");
+        let tasksData = await readFile("data/user_tasks_data.json","utf-8");
+        try{
+            token = req.headers.authorization.split(" ")[1];
+            const decoded = jwt.verify(token, process.env.TOKEN_KEY);
+            let userIndex = userData.findIndex(item => item.username === decoded.username);
+            if(userIndex!=-1){
+                response = await services.filterTasks(req.query,userIndex); 
+                if(response.status){
+                    res.status(200);
+                    logger.info(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                }
+                else{
+                    res.status(500);
+                    logger.error(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                }     
+            }
+            else{
+                response.message = constants.USER_AUTH_FAILED;
+                res.status(401);
+            }
+                res.json(response.message);
+        }
+        catch(err){
+            logger.error(`${err.status} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+            res.status(401).json(constants.TOKEN_EXPIRED);
+        }
+    }
 
-module.exports = {createDetails,readDetails,readSpecificDetailsById,updateDetailsById,deleteDetails,deleteDetailsById};
+    catch(err){
+        logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        res.status(404).send(constants.FILE_NOT_FOUND);
+    }
+    
+};
+
+const sortTasks = async(req,res)=>{
+    let token,response;
+    try{
+        let userData = await readFile("data/user_auth_data.json","utf-8");
+        let tasksData = await readFile("data/user_tasks_data.json","utf-8");
+        try{
+            token = req.headers.authorization.split(" ")[1];
+            const decoded = jwt.verify(token, process.env.TOKEN_KEY);
+            let userIndex = userData.findIndex(item => item.username === decoded.username);
+            if(userIndex!=-1){
+                response = await services.sortTasks(req.query,userIndex); 
+                if(response.status){
+                    res.status(200);
+                    logger.info(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                }
+                else{
+                    res.status(500);
+                    logger.error(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                }     
+            }
+            else{
+                response.message = constants.USER_AUTH_FAILED;
+                res.status(401);
+            }
+                res.json(response.message);
+        }
+        catch(err){
+            logger.error(`${err.status} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+            res.status(401).json(constants.TOKEN_EXPIRED);
+        }
+    } 
+    catch(err){
+        logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        res.status(404).send(constants.FILE_NOT_FOUND);
+    }        
+    
+}
+
+const paginateTasks = async(req,res)=>{
+    let token,response;
+    try{
+        let userData = await readFile("data/user_auth_data.json","utf-8");
+        let tasksData = await readFile("data/user_tasks_data.json","utf-8");
+        try{
+            token = req.headers.authorization.split(" ")[1];
+            const decoded = jwt.verify(token, process.env.TOKEN_KEY);
+            let userIndex = userData.findIndex(item => item.username === decoded.username);
+            if(userIndex!=-1){
+                response = await services.paginateTasks(req.query,userIndex); 
+                if(response.status){
+                    res.status(200);
+                    logger.info(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                }
+                else{
+                    res.status(500);
+                    logger.error(`${response.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+                }     
+            }
+            else{
+                response.message = constants.USER_AUTH_FAILED;
+                res.status(401);
+            }
+                res.json(response.message);
+        }
+        catch(err){
+            logger.error(`${err.status} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+            res.status(401).json(constants.TOKEN_EXPIRED);
+        }
+    } 
+    catch(err){
+        logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
+        res.status(404).send(constants.FILE_NOT_FOUND);
+    }        
+        
+    
+}
+module.exports = {createDetails,readDetails,readSpecificDetailsById,updateDetailsById,deleteDetailsById,filterTasks,sortTasks,paginateTasks};

@@ -11,6 +11,11 @@ router.get('/task/:id', controller.readSpecificDetailsById);
 router.put('/task/:id', controller.updateDetailsById);
 
 router.delete('/task/:id', controller.deleteDetailsById);
-router.delete('/task', controller.deleteDetails);
+
+router.get('/filter', controller.filterTasks);
+
+router.get('/sort', controller.sortTasks);
+
+router.get('/paginate', controller.paginateTasks);
 
 module.exports = router;

@@ -2,9 +2,9 @@ const express = require('express');
 const fs = require('fs');
 const app = express();
 const cors = require('cors');
-const {infoLogger} = require("./utils/logger");
+const {logger} = require("./utils/logger");
 
-const auth = require('./routes/auth');
+const authRoutes = require('./routes/authRoutes');
 const tasksRoutes = require("./routes/tasksRoutes");
 
 require('dotenv').config();
@@ -15,9 +15,9 @@ app.use(express.json());
 
 app.use(cors());
 
-app.use("/auth", auth);
+app.use("/auth", authRoutes);
 
-app.use('/tasks/',tasksRoutes);
+app.use('/tasks',tasksRoutes);
 
 app.use("/", (req,res)=>{
   fs.writeFile("./data/user_auth_data.json" ,JSON.stringify([]) ,(err) => {
@@ -33,5 +33,5 @@ app.use("/", (req,res)=>{
 
 
 app.listen(process.env.port,()=>{
-  infoLogger.info(`Server started at port `+process.env.port);
+  logger.info(`Server started at port `+process.env.port);
 })
