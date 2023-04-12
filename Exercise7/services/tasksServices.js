@@ -191,7 +191,7 @@ const paginateTasks = async(queryDetails,userIndex)=>{
     let response;
     try{
         let tasksData = await fileActions.readFile("data/user_tasks_data.json","utf-8");
-        const {filter,sort,limit} = queryDetails;
+        const {filter,sort,limit,page} = queryDetails;
         let data = tasksData[userIndex].tasks;
         let returnedData;
         if(filter){
@@ -201,13 +201,16 @@ const paginateTasks = async(queryDetails,userIndex)=>{
             returnedData= await sortTasks(queryDetails,userIndex);
         }
         if(returnedData.length < limit){
-            response = {status:true,message:returnedData.message};
+            response = {status:true,message:returnedData};
         }
-        else{
-           
-            returnedData = returnedData.message.slice(0,limit);
+        else if(returnedData.length > limit){
+            returnedData = returnedData.slice((page-1)*limit,(page-1)*limit+limit);
             response = {status:true,message : returnedData};
         }
+        if(returnedData.length<(page-1)*limit){
+            response = {status:true,message : "Data less than limit"};
+        }
+        
     }
     catch(err){
         console.log(err);

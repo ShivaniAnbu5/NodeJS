@@ -5719,3 +5719,230 @@ info: Apr-12-2023 08:24:35: 	Server started at port 4006
 info: Apr-12-2023 08:24:36: 	Server started at port 4006
 info: Apr-12-2023 08:24:37: 	Server started at port 4006
 info: Apr-12-2023 08:24:37: 	Server started at port 4006
+info: Apr-12-2023 10:59:15: 	Server started at port 4006
+info: Apr-12-2023 11:06:13: 	Server started at port 4006
+error: Apr-12-2023 11:06:15: 	undefined - undefined - jwt expired - /tasks/task/ - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 11:06:36: 	[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object],[object Object] - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 11:06:43: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:43: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:45: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:45: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:46: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:46: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+info: Apr-12-2023 12:37:33: 	Server started at port 4006
+error: Apr-12-2023 12:38:32: 	undefined - undefined - jwt expired - /tasks/task/81 - DELETE - ::ffff:127.0.0.1
+error: Apr-12-2023 12:38:43: 	undefined - undefined - jwt expired - /tasks/task/81 - DELETE - ::ffff:127.0.0.1
+info: Apr-12-2023 12:39:46: 	Task with id 81 could not be found! - /tasks/task/81 - DELETE - ::ffff:127.0.0.1
+info: Apr-12-2023 12:40:12: 	Server started at port 4006
+info: Apr-12-2023 12:40:32: 	Server started at port 4006
+info: Apr-12-2023 12:41:05: 	Server started at port 4006
+info: Apr-12-2023 12:41:45: 	Server started at port 4006
+info: Apr-12-2023 12:41:45: 	Server started at port 4006
+info: Apr-12-2023 12:41:48: 	Server started at port 4006
+info: Apr-12-2023 12:41:50: 	Server started at port 4006
+info: Apr-12-2023 12:41:51: 	Server started at port 4006
+info: Apr-12-2023 12:41:51: 	Server started at port 4006
+info: Apr-12-2023 12:41:53: 	Server started at port 4006
+info: Apr-12-2023 12:41:53: 	Server started at port 4006
+info: Apr-12-2023 12:41:57: 	Server started at port 4006
+info: Apr-12-2023 12:42:00: 	Server started at port 4006
+info: Apr-12-2023 12:42:03: 	Server started at port 4006
+info: Apr-12-2023 12:42:26: 	Server started at port 4006
+info: Apr-12-2023 12:42:27: 	Server started at port 4006
+info: Apr-12-2023 12:42:28: 	Server started at port 4006
+info: Apr-12-2023 12:42:37: 	Server started at port 4006
+info: Apr-12-2023 12:42:37: 	Server started at port 4006
+info: Apr-12-2023 12:42:46: 	Server started at port 4006
+info: Apr-12-2023 12:42:47: 	Server started at port 4006
+info: Apr-12-2023 12:42:47: 	Server started at port 4006
+info: Apr-12-2023 12:42:48: 	Server started at port 4006
+info: Apr-12-2023 12:42:48: 	Server started at port 4006
+info: Apr-12-2023 12:42:56: 	Server started at port 4006
+info: Apr-12-2023 12:42:56: 	Server started at port 4006
+info: Apr-12-2023 12:42:56: 	Server started at port 4006
+info: Apr-12-2023 12:42:57: 	Server started at port 4006
+info: Apr-12-2023 12:42:59: 	Server started at port 4006
+info: Apr-12-2023 12:43:00: 	Server started at port 4006
+info: Apr-12-2023 12:43:00: 	Server started at port 4006
+info: Apr-12-2023 12:43:01: 	Server started at port 4006
+info: Apr-12-2023 12:43:01: 	Server started at port 4006
+info: Apr-12-2023 12:43:12: 	Server started at port 4006
+info: Apr-12-2023 12:43:12: 	Server started at port 4006
+info: Apr-12-2023 12:43:13: 	Server started at port 4006
+info: Apr-12-2023 12:43:13: 	Server started at port 4006
+info: Apr-12-2023 12:43:13: 	Server started at port 4006
+info: Apr-12-2023 12:43:38: 	Server started at port 4006
+info: Apr-12-2023 12:43:39: 	Server started at port 4006
+info: Apr-12-2023 12:43:40: 	Server started at port 4006
+info: Apr-12-2023 12:43:43: 	Server started at port 4006
+info: Apr-12-2023 12:43:43: 	Server started at port 4006
+info: Apr-12-2023 12:43:43: 	Server started at port 4006
+info: Apr-12-2023 12:43:46: 	Server started at port 4006
+info: Apr-12-2023 12:44:03: 	Server started at port 4006
+info: Apr-12-2023 12:44:04: 	Server started at port 4006
+info: Apr-12-2023 12:44:08: 	Server started at port 4006
+info: Apr-12-2023 14:16:56: 	Server started at port 4006
+error: Apr-12-2023 14:17:00: 	undefined - undefined - jwt expired - /tasks/paginate?filter=true&limit=4&priority=high - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:17:18: 	[object Object],[object Object],[object Object],[object Object] - /tasks/paginate?filter=true&limit=4&priority=high - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:18:22: 	 - /tasks/paginate?filter=true&limit=4&priority=high&page=2 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 14:19:03: 	Error occured in paginating tasks - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 14:19:05: 	Error occured in paginating tasks - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:20:15: 	Server started at port 4006
+info: Apr-12-2023 14:20:16: 	Server started at port 4006
+info: Apr-12-2023 14:20:17: 	Server started at port 4006
+info: Apr-12-2023 14:20:17: 	Server started at port 4006
+info: Apr-12-2023 14:20:17: 	Server started at port 4006
+info: Apr-12-2023 14:20:18: 	Server started at port 4006
+info: Apr-12-2023 14:20:19: 	Server started at port 4006
+info: Apr-12-2023 14:20:19: 	Server started at port 4006
+info: Apr-12-2023 14:20:20: 	Server started at port 4006
+error: Apr-12-2023 14:20:51: 	Error occured in paginating tasks - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:21:12: 	Server started at port 4006
+info: Apr-12-2023 14:21:13: 	Server started at port 4006
+info: Apr-12-2023 14:21:17: 	 - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:21:21: 	Server started at port 4006
+info: Apr-12-2023 14:21:22: 	Server started at port 4006
+info: Apr-12-2023 14:21:23: 	 - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:21:49: 	Server started at port 4006
+info: Apr-12-2023 14:21:53: 	Server started at port 4006
+info: Apr-12-2023 14:22:39: 	 - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:22:53: 	Server started at port 4006
+info: Apr-12-2023 14:23:32: 	Server started at port 4006
+info: Apr-12-2023 14:23:35: 	Server started at port 4006
+info: Apr-12-2023 14:23:35: 	Server started at port 4006
+info: Apr-12-2023 14:23:36: 	Server started at port 4006
+info: Apr-12-2023 14:23:38: 	Server started at port 4006
+info: Apr-12-2023 14:23:38: 	Server started at port 4006
+info: Apr-12-2023 14:23:38: 	Server started at port 4006
+info: Apr-12-2023 14:23:40: 	 - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:24:46: 	Server started at port 4006
+info: Apr-12-2023 14:24:48: 	[object Object],[object Object],[object Object],[object Object] - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:33:51: 	 - /tasks/paginate?limit=4&page=3 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:36:10: 	Server started at port 4006
+info: Apr-12-2023 14:36:13: 	Server started at port 4006
+info: Apr-12-2023 14:36:14: 	Server started at port 4006
+info: Apr-12-2023 14:36:15: 	Server started at port 4006
+info: Apr-12-2023 14:36:21: 	[object Object],[object Object] - /tasks/paginate?limit=4&page=3 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:36:32: 	 - /tasks/paginate?limit=5&page=3 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:38:30: 	Server started at port 4006
+info: Apr-12-2023 14:38:32: 	Server started at port 4006
+info: Apr-12-2023 14:38:34: 	Server started at port 4006
+info: Apr-12-2023 14:38:39: 	Server started at port 4006
+info: Apr-12-2023 14:39:02: 	Server started at port 4006
+info: Apr-12-2023 14:39:04: 	Server started at port 4006
+info: Apr-12-2023 14:39:05: 	Server started at port 4006
+info: Apr-12-2023 14:39:06: 	Server started at port 4006
+info: Apr-12-2023 14:39:06: 	Server started at port 4006
+info: Apr-12-2023 14:39:06: 	Server started at port 4006
+info: Apr-12-2023 14:39:06: 	Server started at port 4006
+info: Apr-12-2023 14:39:07: 	Server started at port 4006
+info: Apr-12-2023 14:39:08: 	Server started at port 4006
+info: Apr-12-2023 14:39:14: 	Server started at port 4006
+info: Apr-12-2023 14:42:44: 	Server started at port 4006
+info: Apr-12-2023 14:43:52: 	Server started at port 4006
+info: Apr-12-2023 14:43:54: 	Server started at port 4006
+info: Apr-12-2023 14:43:54: 	Server started at port 4006
+info: Apr-12-2023 14:43:54: 	Server started at port 4006
+info: Apr-12-2023 14:43:55: 	Server started at port 4006
+info: Apr-12-2023 14:43:55: 	Server started at port 4006
+info: Apr-12-2023 14:43:55: 	Server started at port 4006
+info: Apr-12-2023 14:43:55: 	Server started at port 4006
+info: Apr-12-2023 14:44:06: 	Server started at port 4006
+info: Apr-12-2023 14:44:06: 	Server started at port 4006
+info: Apr-12-2023 14:44:06: 	Server started at port 4006
+info: Apr-12-2023 14:44:07: 	Server started at port 4006
+info: Apr-12-2023 14:44:18: 	Server started at port 4006
+info: Apr-12-2023 14:44:21: 	Server started at port 4006
+info: Apr-12-2023 14:44:21: 	Server started at port 4006
+info: Apr-12-2023 14:44:21: 	Server started at port 4006
+info: Apr-12-2023 14:44:21: 	Server started at port 4006
+info: Apr-12-2023 14:44:22: 	Server started at port 4006
+info: Apr-12-2023 14:44:22: 	Server started at port 4006
+info: Apr-12-2023 14:44:23: 	Server started at port 4006
+info: Apr-12-2023 14:44:24: 	Server started at port 4006
+info: Apr-12-2023 14:44:24: 	Server started at port 4006
+info: Apr-12-2023 14:44:25: 	 - /tasks/paginate?limit=5&page=3 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:44:34: 	Server started at port 4006
+info: Apr-12-2023 14:44:36: 	Data less than limit - /tasks/paginate?limit=5&page=3 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:49:24: 	Server started at port 4006
+info: Apr-12-2023 14:49:25: 	Server started at port 4006
+info: Apr-12-2023 14:49:26: 	Data less than limit - /tasks/paginate?limit=5&page=3 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:49:41: 	Server started at port 4006
+info: Apr-12-2023 14:49:41: 	Server started at port 4006
+info: Apr-12-2023 14:49:42: 	Data less than limit - /tasks/paginate?limit=5&page=3 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:49:43: 	Data less than limit - /tasks/paginate?limit=5&page=3 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 14:51:38: 	Server started at port 4006
+info: Apr-12-2023 14:51:38: 	Server started at port 4006
+info: Apr-12-2023 14:51:39: 	Server started at port 4006
+info: Apr-12-2023 14:51:45: 	Server started at port 4006
+info: Apr-12-2023 14:53:33: 	Server started at port 4006
+info: Apr-12-2023 14:53:34: 	Server started at port 4006
+info: Apr-12-2023 14:53:34: 	Server started at port 4006
+info: Apr-12-2023 14:53:36: 	Server started at port 4006
+info: Apr-12-2023 14:53:37: 	Server started at port 4006
+info: Apr-12-2023 14:53:37: 	Server started at port 4006
+info: Apr-12-2023 14:53:37: 	Server started at port 4006
+info: Apr-12-2023 14:53:38: 	Server started at port 4006
+info: Apr-12-2023 14:53:38: 	Server started at port 4006
+info: Apr-12-2023 14:53:39: 	Server started at port 4006
+info: Apr-12-2023 14:55:58: 	Server started at port 4006
+info: Apr-12-2023 14:55:59: 	Server started at port 4006
+info: Apr-12-2023 14:55:59: 	Server started at port 4006
+info: Apr-12-2023 14:55:59: 	Server started at port 4006
+info: Apr-12-2023 14:55:59: 	Server started at port 4006
+info: Apr-12-2023 14:56:00: 	Server started at port 4006
+info: Apr-12-2023 14:56:00: 	Server started at port 4006
+info: Apr-12-2023 14:56:00: 	Server started at port 4006
+info: Apr-12-2023 14:56:01: 	Server started at port 4006
+info: Apr-12-2023 14:56:01: 	Server started at port 4006
+info: Apr-12-2023 14:56:01: 	Server started at port 4006
+info: Apr-12-2023 14:56:02: 	Server started at port 4006
+info: Apr-12-2023 14:56:03: 	Server started at port 4006
+info: Apr-12-2023 14:56:03: 	Server started at port 4006
+info: Apr-12-2023 14:56:05: 	Server started at port 4006
+info: Apr-12-2023 14:56:05: 	Server started at port 4006
+info: Apr-12-2023 14:56:05: 	Server started at port 4006
+info: Apr-12-2023 14:56:05: 	Server started at port 4006
+info: Apr-12-2023 14:56:06: 	Server started at port 4006
+info: Apr-12-2023 14:56:06: 	Server started at port 4006
+info: Apr-12-2023 14:56:07: 	Server started at port 4006
+info: Apr-12-2023 14:56:07: 	Server started at port 4006
+info: Apr-12-2023 14:56:07: 	Server started at port 4006
+info: Apr-12-2023 14:56:08: 	Server started at port 4006
+info: Apr-12-2023 14:56:17: 	Server started at port 4006
+info: Apr-12-2023 14:56:17: 	Server started at port 4006
+info: Apr-12-2023 14:56:18: 	Server started at port 4006
+info: Apr-12-2023 14:56:18: 	Server started at port 4006
+info: Apr-12-2023 14:56:18: 	Server started at port 4006
+info: Apr-12-2023 14:56:19: 	Server started at port 4006
+info: Apr-12-2023 14:56:20: 	Server started at port 4006
+info: Apr-12-2023 14:56:20: 	Server started at port 4006
+info: Apr-12-2023 14:57:58: 	Server started at port 4006
+info: Apr-12-2023 14:57:58: 	Server started at port 4006
+info: Apr-12-2023 14:58:03: 	Server started at port 4006
+info: Apr-12-2023 14:58:17: 	Server started at port 4006
+info: Apr-12-2023 14:58:19: 	Server started at port 4006
+info: Apr-12-2023 14:58:19: 	Server started at port 4006
+info: Apr-12-2023 14:58:21: 	Server started at port 4006
+info: Apr-12-2023 14:58:21: 	Server started at port 4006
+info: Apr-12-2023 14:58:21: 	Server started at port 4006
+info: Apr-12-2023 14:58:22: 	Server started at port 4006
+info: Apr-12-2023 14:58:22: 	Server started at port 4006
+info: Apr-12-2023 14:58:22: 	Server started at port 4006
+info: Apr-12-2023 14:58:22: 	Server started at port 4006
+info: Apr-12-2023 14:58:24: 	Server started at port 4006
+info: Apr-12-2023 14:58:31: 	Server started at port 4006
+info: Apr-12-2023 14:58:32: 	Server started at port 4006
+info: Apr-12-2023 14:58:32: 	Server started at port 4006
+info: Apr-12-2023 14:58:32: 	Server started at port 4006
+info: Apr-12-2023 14:58:32: 	Server started at port 4006
+info: Apr-12-2023 14:58:33: 	Server started at port 4006
+info: Apr-12-2023 14:58:33: 	Server started at port 4006
+info: Apr-12-2023 14:58:34: 	Server started at port 4006
+info: Apr-12-2023 14:58:35: 	Server started at port 4006
+info: Apr-12-2023 14:58:35: 	Server started at port 4006
+info: Apr-12-2023 15:00:02: 	Server started at port 4006
+info: Apr-12-2023 15:00:03: 	[object Object],[object Object],[object Object],[object Object],[object Object] - /tasks/paginate?limit=5&page=1 - GET - ::ffff:127.0.0.1
+info: Apr-12-2023 15:00:29: 	Server started at port 4006
+info: Apr-12-2023 15:00:33: 	Server started at port 4006
+info: Apr-12-2023 15:00:33: 	Server started at port 4006

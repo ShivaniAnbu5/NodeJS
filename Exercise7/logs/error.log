@@ -300,3 +300,16 @@ error: Apr-12-2023 07:14:35: 	Error occured in paginating tasks - /tasks/paginat
 error: Apr-12-2023 07:15:11: 	Error occured in paginating tasks - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
 error: Apr-12-2023 07:16:00: 	Error occured in paginating tasks - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
 error: Apr-12-2023 07:16:13: 	Error occured in paginating tasks - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 11:06:15: 	undefined - undefined - jwt expired - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 11:06:43: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:43: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:45: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:45: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:46: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:46: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 12:38:32: 	undefined - undefined - jwt expired - /tasks/task/81 - DELETE - ::ffff:127.0.0.1
+error: Apr-12-2023 12:38:43: 	undefined - undefined - jwt expired - /tasks/task/81 - DELETE - ::ffff:127.0.0.1
+error: Apr-12-2023 14:17:00: 	undefined - undefined - jwt expired - /tasks/paginate?filter=true&limit=4&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 14:19:03: 	Error occured in paginating tasks - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 14:19:05: 	Error occured in paginating tasks - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 14:20:51: 	Error occured in paginating tasks - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
