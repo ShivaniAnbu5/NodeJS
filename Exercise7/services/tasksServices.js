@@ -8,7 +8,7 @@ const createDetailsService = async(taskData,userIndex) => {
         let taskCount = tasksData[userIndex].taskCount;
         tasksData[userIndex].tasks.push({taskData,createdDate:new Date(),taskId: taskCount});
         fileActions.writeFile("data/user_tasks_data.json",tasksData);
-        response ={status:true,message:"Created task"};  
+        response = {status:true,message:"Created task"};  
     } 
     catch(err){
         response={status:false,message:"Error occured in creating task"};
