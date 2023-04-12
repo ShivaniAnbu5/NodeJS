@@ -1,0 +1,88 @@
+error: Mar-30-2023 10:42:14: 	500 - undefined - ENOENT: no such file or directory, open 'cdw_ace23_buddis.json' - /read - GET - ::ffff:127.0.0.1
+error: Mar-30-2023 12:06:28: 	500 - undefined - fs is not defined - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:07:09: 	500 - undefined - fs is not defined - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:08:04: 	500 - undefined - ENOENT: no such file or directory, open '../cdw_ace23_buddies.json' - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:08:48: 	500 - undefined - ENOENT: no such file or directory, open '../cdw_ace23_buddies.json' - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:09:06: 	500 - undefined - ENOENT: no such file or directory, open '../cdw_ace23_buddies.json' - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:09:54: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:09:58: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:09:58: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:09:58: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:09:58: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:09:58: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:09:59: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:09:59: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:09:59: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:09:59: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:09:59: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:09:59: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:10:00: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:10:24: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:12:04: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:15:31: 	500 - undefined - The "path" argument must be of type string or an instance of Buffer or URL. Received an instance of Array - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:24:08: 	500 - undefined - file is not defined - /create - POST - ::ffff:127.0.0.1
+error: Mar-30-2023 12:25:43: 	500 - undefined - ENOENT: no such file or directory, open 'cdw_ace23_buddis.json' - /read - GET - ::ffff:127.0.0.1
+error: Mar-30-2023 12:26:11: 	500 - undefined - ENOENT: no such file or directory, open 'cdw_ace23_buddis.json' - /read - GET - ::ffff:127.0.0.1
+error: Mar-30-2023 12:26:38: 	500 - undefined - ENOENT: no such file or directory, open 'cdw_ace23_buddis.json' - /read - GET - ::ffff:127.0.0.1
+error: Mar-30-2023 12:27:17: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddis.json' - /read - GET - ::ffff:127.0.0.1
+error: Mar-30-2023 12:28:39: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddis.json' - /read/ - GET - ::ffff:127.0.0.1
+error: Mar-30-2023 12:28:42: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddis.json' - /read - GET - ::ffff:127.0.0.1
+error: Mar-30-2023 12:29:08: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddis.json' - /read/ - GET - ::ffff:127.0.0.1
+error: Mar-30-2023 12:29:14: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddis.json' - /read - GET - ::ffff:127.0.0.1
+error: Mar-30-2023 12:29:26: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddis.json' - /read - GET - ::ffff:127.0.0.1
+error: Mar-30-2023 12:29:27: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddis.json' - /read - GET - ::ffff:127.0.0.1
+error: Mar-30-2023 14:29:45: 	500 - undefined - fs is not defined - /update/7 - PUT - ::ffff:127.0.0.1
+error: Mar-30-2023 14:29:46: 	500 - undefined - fs is not defined - /update/7 - PUT - ::ffff:127.0.0.1
+error: Mar-30-2023 14:29:47: 	500 - undefined - fs is not defined - /update/7 - PUT - ::ffff:127.0.0.1
+error: Mar-30-2023 14:30:56: 	500 - undefined - fs is not defined - /update/7 - PUT - ::ffff:127.0.0.1
+error: Mar-30-2023 14:31:21: 	500 - undefined - fs is not defined - /update/7 - PUT - ::ffff:127.0.0.1
+error: Mar-30-2023 14:34:12: 	500 - undefined - fs is not defined - /update/3 - PUT - ::ffff:127.0.0.1
+error: Mar-30-2023 14:35:04: 	500 - undefined - fs is not defined - /update/3 - PUT - ::ffff:127.0.0.1
+error: Mar-30-2023 14:35:19: 	500 - undefined - fs is not defined - /update/3 - PUT - ::ffff:127.0.0.1
+error: Mar-30-2023 14:43:58: 	500 - undefined - fs is not defined - /update/dfg - PUT - ::ffff:127.0.0.1
+error: Mar-30-2023 14:43:59: 	500 - undefined - fs is not defined - /update/dfg - PUT - ::ffff:127.0.0.1
+error: Apr-07-2023 23:24:11: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddes.json' - /update/1 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 11:26:27: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddes.json' - /buddies/buddy/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 11:27:45: 	500 - undefined - ENOENT: no such file or directory, open '../cdw_ace23_buddes.json' - /buddies/buddy/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 11:28:22: 	500 - undefined - ENOENT: no such file or directory, open '../cdw_ace23_buddes.json' - /buddies/buddy/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 11:28:32: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddes.json' - /buddies/buddy/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 11:28:35: 	500 - undefined - ENOENT: no such file or directory, open 'cdw_ace23_buddes.json' - /buddies/buddy/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 11:28:39: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddes.json' - /buddies/buddy/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 11:29:38: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddes.json' - /buddies/buddy/2 - PUT - ::ffff:127.0.0.1
+error: Apr-12-2023 17:05:48: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:05:50: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:05:51: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:06:39: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:06:51: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:07:00: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:07:00: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:07:00: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:07:01: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:07:01: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:07:01: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:07:01: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:07:01: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:07:01: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:07:02: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:07:12: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:08:04: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:08:26: 	500 - undefined - id is not defined - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:08:28: 	500 - OK - Cannot set headers after they are sent to the client - /buddies/ - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 23:16:17: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:17:22: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:17:22: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:17:23: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:17:58: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:18:26: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:19:02: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:19:02: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:19:03: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:19:03: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:19:03: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:19:03: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:19:04: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:19:04: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:19:34: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:41:15: 	undefined - undefined - req is not defined - /buddies/5 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 23:49:59: 	undefined - undefined - Cannot access 'dataToUpdate' before initialization - /buddies/5 - PUT - ::ffff:127.0.0.1
+error: Apr-12-2023 23:50:31: 	undefined - undefined - Cannot access 'dataToUpdate' before initialization - /buddies/5 - PUT - ::ffff:127.0.0.1
