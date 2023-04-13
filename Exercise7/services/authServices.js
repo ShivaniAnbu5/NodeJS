@@ -7,16 +7,10 @@ const {readFile,writeFile} = require('../utils/fileActions')
 
 const registerUser = async(req,res)=>{
     try{
-        console.log("Inside register controller");
         let data = req.body;
         let username = data.username;
         let userData = await readFile("data/user_auth_data.json","utf-8");
-        console.log("User data "+userData);
         let userTasks = await readFile("data/user_tasks_data.json","utf-8");
-
-        console.log("User taks "+userTasks);
-        console.log("User tdedd ");
-
         let objectIndex = userData.findIndex(item => item.username === data.username);
 
         // If already a user with this username doesn't exist then add them
@@ -61,7 +55,6 @@ const registerUser = async(req,res)=>{
 
 const loginUser = async(req,res)=>{
     try{
-        console.log("Inside login controller");
         let data = req.body;
         let username = data.username;
         let userData = await readFile("data/user_auth_data.json","utf-8");

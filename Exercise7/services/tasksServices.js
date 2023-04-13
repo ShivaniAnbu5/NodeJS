@@ -19,7 +19,6 @@ const createDetailsService = async(taskData,userIndex) => {
 const readDetails = async(userIndex) => {
     let response;
     try{
-        console.log("dd");
         let tasksData = await fileActions.readFile("data/user_tasks_data.json","utf-8");
         if(tasksData[userIndex].tasks.length>0)
         {
@@ -72,7 +71,6 @@ const updateDetailsByIdService = async(taskData,userIndex,id) => {
         }
     }
     catch(err){
-        console.log(err);
         response={status:false,message:"Error occured in updating specific task by id"};
     }
     return response;
@@ -95,7 +93,6 @@ const deleteDetailsById = async(userIndex,id) => {
         }
     }
     catch(err){
-        console.log(err);
         response={status:false,message:"Error occured in deleting specific task by id"+err};
     }
     return response;
@@ -214,7 +211,6 @@ const paginateTasks = async(queryDetails,userIndex)=>{
         
     }
     catch(err){
-        console.log(err);
         response={status:false,message:"Error occured in paginating tasks"};
     }
     return response;

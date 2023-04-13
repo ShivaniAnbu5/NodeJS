@@ -22,11 +22,9 @@ app.use('/tasks',tasksRoutes);
 app.use("/", (req,res)=>{
   fs.writeFile("./data/user_auth_data.json" ,JSON.stringify([]) ,(err) => {
     if (err) throw err;
-    console.log('File is created successfully.');
   });
   fs.writeFile("./data/user_tasks_data.json" ,JSON.stringify([]) ,(err) => {
     if (err) throw err;
-    console.log('File is created successfully.');
   });
   res.send("Hello!");
 });

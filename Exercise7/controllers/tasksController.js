@@ -17,7 +17,6 @@ const createDetails = async(req, res) => {
                 let userIndex = userData.findIndex(item => item.username === decoded.username);
                 if(userIndex!=-1){
                     let result = validate(req.body);
-                    console.log("Body: "+JSON.stringify(req.body));
                     if(result){
                         response = await services.createDetailsService(req.body,userIndex);
                         if(response.status){
@@ -35,7 +34,7 @@ const createDetails = async(req, res) => {
                       
                 }
                 else{
-                    response.message = constants.USER_AUTH_FAILED;
+                    response.message = constants.USER_AUTH_FAILED; 
                     res.status(401);
                 }
                 res.json(response.message);
@@ -46,7 +45,6 @@ const createDetails = async(req, res) => {
             }
         }
         catch(err){
-            console.log(err);
             logger.error(`${err.status || 500} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
             res.status(404).send(constants.FILE_NOT_FOUND);
         }
@@ -79,7 +77,6 @@ const readDetails = async(req, res) => {
             res.json(response.message);
         }
         catch(err){
-            console.log(err);
             logger.error(`${err.status} - ${res.statusMessage} - ${err.message} - ${req.originalUrl} - ${req.method} - ${req.ip}`);
             res.status(401).json(constants.TOKEN_EXPIRED);
         }
