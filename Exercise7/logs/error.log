@@ -1,0 +1,395 @@
+error: Apr-07-2023 08:10:24: 	500 - OK - fs is not defined - /authentication/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 08:11:12: 	500 - OK - fs is not defined - /authentication/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 08:14:15: 	500 - OK - ENOENT: no such file or directory, open 'data/user_auth_data.js' - /authentication/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 08:16:47: 	500 - OK - Unexpected token o in JSON at position 1 - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 08:17:12: 	500 - OK - Unexpected token o in JSON at position 1 - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 08:17:41: 	500 - OK - Unexpected token o in JSON at position 1 - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 08:17:56: 	500 - OK - fileData.push is not a function - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 13:58:12: 	500 - OK - Unexpected end of JSON input - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 13:58:39: 	500 - OK - Unexpected end of JSON input - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 13:58:59: 	500 - OK - Unexpected end of JSON input - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 13:59:27: 	500 - OK - Unexpected end of JSON input - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 13:59:45: 	500 - OK - Unexpected end of JSON input - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:00:02: 	500 - OK - Unexpected token o in JSON at position 1 - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:00:35: 	500 - OK - Unexpected token o in JSON at position 1 - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:01:33: 	500 - OK - Unexpected token o in JSON at position 1 - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:01:58: 	500 - OK - bcrypt is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:02:29: 	500 - OK - bcrypt is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:12:33: 	500 - OK - Cannot set headers after they are sent to the client - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:12:48: 	500 - OK - Cannot set headers after they are sent to the client - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:13:29: 	500 - OK - Cannot set headers after they are sent to the client - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:27:45: 	500 - undefined - Cannot read properties of undefined (reading 'password') - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:28:29: 	500 - undefined - Cannot read properties of undefined (reading 'password') - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:28:49: 	500 - undefined - Cannot read properties of undefined (reading 'password') - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:29:17: 	500 - undefined - Cannot read properties of undefined (reading 'password') - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:29:37: 	500 - undefined - Cannot read properties of undefined (reading 'password') - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:50:20: 	500 - OK - userData is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:51:09: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:51:54: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:52:44: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:53:00: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:53:05: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:53:47: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:53:48: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 14:54:09: 	500 - OK - Cannot set headers after they are sent to the client - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 15:57:04: 	500 - undefined - Cannot read properties of undefined (reading 'split') - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 15:57:35: 	500 - undefined - Cannot read properties of undefined (reading 'split') - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 15:57:53: 	500 - undefined - Cannot read properties of undefined (reading 'split') - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:01:11: 	500 - undefined - data is not defined - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:01:22: 	500 - undefined - data is not defined - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:01:29: 	500 - undefined - data is not defined - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:02:06: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:02:35: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:02:39: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:02:41: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:02:59: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:05:51: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:06:08: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:06:25: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:07:35: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:08:21: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.json' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:09:27: 	500 - undefined - data is not defined - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:09:36: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:10:43: 	500 - undefined - The "data" argument must be of type string or an instance of Buffer, TypedArray, or DataView. Received undefined - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:10:55: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:12:36: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:12:50: 	500 - undefined - The "cb" argument must be of type function. Received undefined - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:13:02: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:27:47: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:28:43: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:30:51: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:35:03: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.js' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:35:15: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:35:21: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data' - /tasks/create/ - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:40:12: 	500 - undefined - ENOENT: no such file or directory, open 'data/user_auth_data.json' - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-07-2023 16:42:59: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:43:25: 	500 - undefined - ENOENT: no such file or directory, open './data/user_auth_data' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:43:30: 	500 - undefined - ENOENT: no such file or directory, open 'data/user_auth_data' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:43:48: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:45:54: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:46:01: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:48:14: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:49:05: 	500 - undefined - userData.findIndex is not a function - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:49:19: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:49:52: 	500 - undefined - Cannot read properties of undefined (reading 'token') - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:58:39: 	500 - undefined - ENOENT: no such file or directory, open '../data/user_auth_data.json' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 16:59:49: 	500 - undefined - Cannot read properties of undefined (reading 'token') - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 17:00:32: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 17:01:00: 	500 - undefined - data is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-07-2023 17:26:46: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddies.json' - /tasks/read - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 20:47:38: 	500 - undefined - token is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 20:47:49: 	500 - undefined - token is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 20:48:16: 	500 - undefined - token is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 20:48:39: 	500 - undefined - token is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 21:31:00: 	500 - undefined - Cannot read properties of undefined (reading 'split') - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:33:18: 	500 - undefined - Cannot read properties of undefined (reading 'split') - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:34:04: 	500 - undefined - Cannot read properties of undefined (reading 'split') - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:34:21: 	500 - undefined - jwt is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:34:42: 	500 - undefined - config is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:35:01: 	500 - undefined - jwt expired - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:35:59: 	500 - undefined - ENOENT: no such file or directory, open './data/tasks.json' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:36:27: 	500 - undefined - userData is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:36:45: 	500 - undefined - userData is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 21:37:01: 	500 - undefined - userData is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:08:01: 	500 - undefined - userData.findIndex is not a function - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:08:47: 	500 - undefined - userData.findIndex is not a function - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:09:03: 	500 - undefined - userData.findIndex is not a function - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:09:18: 	500 - undefined - userData.findIndex is not a function - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:09:38: 	500 - undefined - userData.findIndex is not a function - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:15:37: 	500 - undefined - userData.findIndex is not a function - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:16:07: 	500 - undefined - userData.findIndex is not a function - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:16:33: 	500 - undefined - userData.findIndex is not a function - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:17:17: 	500 - undefined - userData.findIndex is not a function - /auth/login - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 22:37:51: 	500 - undefined - err is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:38:07: 	500 - undefined - err is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:38:21: 	500 - undefined - err is not defined - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:38:42: 	500 - undefined - jwt expired - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:39:25: 	500 - undefined - jwt expired - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:39:30: 	500 - undefined - ENOENT: no such file or directory, open './cdw_ace23_buddies.json' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:40:08: 	500 - undefined - jwt expired - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 22:40:28: 	500 - undefined - ENOENT: no such file or directory, open 'data/user_authdata.json' - /tasks/create - POST - ::ffff:127.0.0.1
+error: Apr-09-2023 23:32:29: 	500 - undefined - userData is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 23:32:37: 	500 - undefined - userData is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-09-2023 23:32:38: 	500 - undefined - userData is not defined - /auth/register - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:17:45: 	500 - undefined - jwt expired - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-10-2023 00:18:04: 	500 - undefined - services.createService is not a function - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-10-2023 00:45:17: 	500 - undefined - Cannot read properties of undefined (reading 'readDetails') - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:46:02: 	500 - undefined - Cannot read properties of undefined (reading 'readDetails') - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:46:41: 	500 - undefined - Cannot read properties of undefined (reading 'readDetails') - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:49:17: 	500 - OK - The "chunk" argument must be of type string or an instance of Buffer or Uint8Array. Received an instance of Array - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:49:37: 	500 - OK - fileData is not defined - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:49:47: 	500 - OK - fileData is not defined - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:51:02: 	500 - OK - fileData is not defined - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:55:27: 	500 - undefined - username is not defined - /tasks/task/1 - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 00:59:49: 	500 - undefined - taskIndex is not defined - /tasks/task/1 - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 01:00:10: 	500 - undefined - taskIndex is not defined - /tasks/task/1 - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 01:00:21: 	500 - undefined - taskIndex is not defined - /tasks/task/1 - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 01:01:26: 	500 - undefined - taskIndex is not defined - /tasks/task/1 - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 01:01:38: 	500 - undefined - taskIndex is not defined - /tasks/task/1 - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 01:21:23: 	500 - undefined - jwt expired - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 01:31:36: 	500 - undefined - jwt expired - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:39:34: 	500 - undefined - title is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:41:37: 	500 - undefined - Unexpected token o in JSON at position 1 - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:42:15: 	500 - undefined - Unexpected token o in JSON at position 1 - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:51:03: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:51:49: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:52:28: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:53:52: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:54:18: 	500 - OK - taskData is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:55:14: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:55:48: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:56:16: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:57:20: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:57:47: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:58:04: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 01:58:39: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 02:00:11: 	500 - undefined - jwt expired - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 02:00:15: 	500 - undefined - invalid token - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 02:00:32: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 02:01:32: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 02:02:16: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 02:03:04: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:49:16: 	500 - undefined - jwt expired - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:49:55: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:50:50: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:50:55: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:51:30: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:54:30: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 07:54:51: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:01:06: 	500 - undefined - Cannot convert undefined or null to object - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:01:33: 	500 - undefined - Cannot convert undefined or null to object - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:16:06: 	500 - undefined - key is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:16:36: 	500 - undefined - key is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:19:59: 	500 - undefined - jwt expired - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:22:46: 	500 - undefined - tasks is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:23:04: 	500 - undefined - tasks is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 08:23:12: 	500 - undefined - tasks is not defined - /tasks/task/2 - PUT - ::ffff:127.0.0.1
+error: Apr-10-2023 14:16:43: 	500 - undefined - username is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:18:42: 	500 - undefined - username is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:21:32: 	500 - undefined - username is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:21:40: 	500 - undefined - username is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:22:17: 	500 - undefined - username is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:22:48: 	500 - undefined - username is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:23:22: 	500 - undefined - username is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:23:36: 	500 - undefined - username is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:23:48: 	500 - undefined - username is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:24:04: 	500 - undefined - fileData is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:24:38: 	500 - undefined - fileData is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:24:39: 	500 - undefined - fileData is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:24:40: 	500 - undefined - fileData is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:24:46: 	500 - undefined - fileData is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:24:58: 	500 - undefined - fileData is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:25:28: 	500 - undefined - fileData is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:25:44: 	500 - undefined - fileData is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:26:43: 	500 - undefined - fileData is not defined - /tasks/task/3 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:26:55: 	500 - undefined - fileData is not defined - /tasks/task/2 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:27:09: 	500 - undefined - fileData is not defined - /tasks/task/1 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:31:21: 	500 - undefined - fileData is not defined - /tasks/task/1 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:32:33: 	500 - undefined - fileData is not defined - /tasks/task/1 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:32:57: 	500 - undefined - fileData is not defined - /tasks/task/1 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:34:03: 	500 - undefined - fileData is not defined - /tasks/task/1 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:34:20: 	500 - undefined - fileData is not defined - /tasks/task/1 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:34:33: 	500 - undefined - fileData is not defined - /tasks/task/1 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 14:35:01: 	500 - undefined - fileData is not defined - /tasks/task/1 - DELETE - ::ffff:127.0.0.1
+error: Apr-10-2023 17:52:56: 	500 - undefined - username is not defined - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 17:53:16: 	500 - undefined - username is not defined - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 17:53:33: 	500 - undefined - username is not defined - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 17:53:34: 	500 - undefined - username is not defined - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 17:53:35: 	500 - undefined - username is not defined - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 17:54:59: 	500 - undefined - username is not defined - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 18:02:38: 	500 - undefined - username is not defined - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 18:02:53: 	500 - undefined - username is not defined - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 18:03:07: 	500 - undefined - username is not defined - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 18:04:00: 	500 - undefined - Cannot read properties of undefined (reading 'filter') - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 18:04:27: 	500 - undefined - Cannot read properties of undefined (reading 'filter') - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 18:04:27: 	500 - undefined - Cannot read properties of undefined (reading 'filter') - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 18:04:37: 	500 - undefined - Cannot read properties of undefined (reading 'filter') - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 18:04:50: 	500 - undefined - Cannot read properties of undefined (reading 'filter') - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 18:05:11: 	500 - undefined - Cannot read properties of undefined (reading 'filter') - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 18:05:26: 	500 - undefined - Cannot read properties of undefined (reading 'filter') - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:08:53: 	500 - undefined - query is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:09:01: 	500 - undefined - title is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:09:12: 	500 - undefined - title is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:09:33: 	500 - undefined - title is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:11:20: 	500 - undefined - data.sort is not a function - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:15:04: 	500 - undefined - title is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:16:32: 	500 - undefined - Cannot read properties of undefined (reading 'title') - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:16:48: 	500 - undefined - Cannot read properties of undefined (reading 'title') - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:16:56: 	500 - undefined - tasks is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:17:14: 	500 - undefined - tasks is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:18:15: 	500 - undefined - title1 is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:18:40: 	500 - undefined - title1 is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:19:00: 	500 - undefined - title1 is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:19:01: 	500 - undefined - title1 is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:19:02: 	500 - undefined - title1 is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:19:03: 	500 - undefined - title1 is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-10-2023 19:19:15: 	500 - undefined - title1 is not defined - /tasks/sort?value=title - GET - ::ffff:127.0.0.1
+error: Apr-11-2023 19:23:44: 	500 - undefined - value is not defined - /tasks/paginate?filter=true&sort=true&limit=3&title=first&dueDate=2025-12-30&priority=high&sortvalue=dueDate - GET - ::ffff:127.0.0.1
+error: Apr-11-2023 19:46:11: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/paginate?filter=true&sort=true&limit=3&title=first&dueDate=2025-12-30&priority=high&sortvalue=dueDate - GET - ::ffff:127.0.0.1
+error: Apr-11-2023 19:46:57: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/paginate?filter=true&sort=true&limit=3&title=first&dueDate=2025-12-30&priority=high&sortvalue=dueDate - GET - ::ffff:127.0.0.1
+error: Apr-11-2023 19:47:08: 	500 - OK - Cannot set headers after they are sent to the client - /tasks/paginate?filter=true&sort=true&limit=3&title=first&dueDate=2025-12-30&priority=high&sortvalue=dueDate - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 05:49:08: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:50:33: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:50:57: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:51:09: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:51:21: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:51:36: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:51:46: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:53:05: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:53:21: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:53:29: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:53:36: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:53:48: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:53:52: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:55:02: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:55:15: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:55:26: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:55:48: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:56:07: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:56:16: 	undefined - undefined - jwt malformed - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:58:02: 	500 - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 05:59:35: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 06:00:30: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 06:00:38: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 06:00:42: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 06:00:43: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 06:01:12: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 06:01:19: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 06:01:21: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 06:01:21: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 06:01:22: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 06:16:16: 	undefined - undefined - Cannot read properties of undefined (reading 'status') - /tasks/sort?value=dueDate - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:40:39: 	undefined - undefined - Assignment to constant variable. - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:41:06: 	undefined - undefined - Assignment to constant variable. - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:42:24: 	undefined - undefined - Assignment to constant variable. - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:42:24: 	undefined - undefined - Assignment to constant variable. - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:42:25: 	undefined - undefined - Assignment to constant variable. - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:42:25: 	undefined - undefined - Assignment to constant variable. - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:42:48: 	undefined - undefined - Assignment to constant variable. - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:43:43: 	undefined - undefined - Assignment to constant variable. - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:44:21: 	undefined - undefined - Assignment to constant variable. - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:44:34: 	undefined - undefined - Assignment to constant variable. - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:44:55: 	undefined - undefined - Assignment to constant variable. - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:45:55: 	Error occured in reading tasks - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:46:14: 	Error occured in reading tasks - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:46:15: 	Error occured in reading tasks - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:46:16: 	Error occured in reading tasks - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:46:16: 	Error occured in reading tasks - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:46:43: 	Error occured in reading tasks - /tasks/task - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:48:21: 	Error occured in reading specific task by id - /tasks/task/12 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:48:52: 	Error occured in reading specific task by id - /tasks/task/12 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:49:06: 	Error occured in reading specific task by id - /tasks/task/12 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:49:07: 	Error occured in reading specific task by id - /tasks/task/12 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 06:51:13: 	Error occured in updating specific task by id - /tasks/task/11 - PUT - ::ffff:127.0.0.1
+error: Apr-12-2023 06:51:24: 	Error occured in updating specific task by id - /tasks/task/11 - PUT - ::ffff:127.0.0.1
+error: Apr-12-2023 06:54:20: 	undefined - undefined - jwt expired - /tasks/task/9 - DELETE - ::ffff:127.0.0.1
+error: Apr-12-2023 06:54:29: 	Error occured in deleting specific task by id - /tasks/task/9 - DELETE - ::ffff:127.0.0.1
+error: Apr-12-2023 06:54:42: 	Error occured in deleting specific task by id - /tasks/task/9 - DELETE - ::ffff:127.0.0.1
+error: Apr-12-2023 06:55:53: 	undefined - undefined - res is not a function - /tasks/task/8 - DELETE - ::ffff:127.0.0.1
+error: Apr-12-2023 06:56:00: 	undefined - undefined - res is not a function - /tasks/task/8 - DELETE - ::ffff:127.0.0.1
+error: Apr-12-2023 06:57:09: 	undefined - undefined - query is not defined - /tasks/filter?title=task2 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 07:09:57: 	undefined - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 07:10:23: 	undefined - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 07:10:38: 	undefined - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 07:10:48: 	undefined - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 07:13:22: 	Error occured in paginating tasks - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 07:13:42: 	Error occured in paginating tasks - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 07:13:56: 	Error occured in paginating tasks - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 07:14:28: 	Error occured in paginating tasks - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 07:14:35: 	Error occured in paginating tasks - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 07:15:11: 	Error occured in paginating tasks - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 07:16:00: 	Error occured in paginating tasks - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 07:16:13: 	Error occured in paginating tasks - /tasks/paginate?filter=true&limit=3&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 11:06:15: 	undefined - undefined - jwt expired - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 11:06:43: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:43: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:45: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:45: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:46: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 11:06:46: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task/ - GET - ::1
+error: Apr-12-2023 12:38:32: 	undefined - undefined - jwt expired - /tasks/task/81 - DELETE - ::ffff:127.0.0.1
+error: Apr-12-2023 12:38:43: 	undefined - undefined - jwt expired - /tasks/task/81 - DELETE - ::ffff:127.0.0.1
+error: Apr-12-2023 14:17:00: 	undefined - undefined - jwt expired - /tasks/paginate?filter=true&limit=4&priority=high - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 14:19:03: 	Error occured in paginating tasks - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 14:19:05: 	Error occured in paginating tasks - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 14:20:51: 	Error occured in paginating tasks - /tasks/paginate?limit=4&page=2 - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 15:19:00: 	undefined - undefined - jwt expired - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 15:42:17: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 15:42:23: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 15:42:25: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 15:42:39: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 15:42:44: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 15:44:30: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::1
+error: Apr-12-2023 15:45:03: 	undefined - undefined - jwt must be provided - /tasks/task - POST - ::1
+error: Apr-12-2023 15:45:26: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:46:10: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:47:46: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:52:17: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:52:55: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:53:26: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:53:33: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:53:57: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:55:02: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:55:53: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:56:26: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:56:37: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:57:04: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 15:58:39: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 16:01:59: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 16:03:55: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 16:04:05: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:14:12: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:14:45: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:15:11: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:16:09: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:16:32: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:19:00: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:20:41: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:22:38: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:22:50: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:23:51: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:26:25: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:36:05: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:36:20: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:36:33: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:39:19: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:39:30: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:40:26: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:40:46: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::1
+error: Apr-12-2023 17:42:44: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 17:42:59: 	undefined - undefined - Cannot set properties of undefined (setting 'message') - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 18:16:36: 	undefined - undefined - jwt expired - /tasks/task - POST - ::ffff:127.0.0.1
+error: Apr-12-2023 18:28:27: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:30:07: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:30:28: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:31:13: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:31:34: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:31:55: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:32:17: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:33:21: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:34:18: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:34:45: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:36:03: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:36:39: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:37:54: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:39:20: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:39:46: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:40:12: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
+error: Apr-12-2023 18:47:13: 	undefined - undefined - jwt expired - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:51:29: 	Error occured in reading tasks - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:51:30: 	Error occured in reading tasks - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:51:31: 	Error occured in reading tasks - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:51:31: 	Error occured in reading tasks - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:51:31: 	Error occured in reading tasks - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:51:31: 	Error occured in reading tasks - /tasks/task/ - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 18:56:11: 	undefined - undefined - jwt expired - /tasks/task/1 - PUT - ::ffff:127.0.0.1
+error: Apr-12-2023 19:01:23: 	undefined - undefined - jwt expired - /tasks/task/81 - DELETE - ::ffff:127.0.0.1
+error: Apr-12-2023 19:05:18: 	undefined - undefined - jwt expired - /tasks/filter?priority=medium - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:06:09: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:06:10: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:06:12: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:08:13: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:08:17: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:08:17: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:08:18: 	Error occured in filtering tasks - /tasks/filter - GET - ::ffff:127.0.0.1
+error: Apr-12-2023 19:27:12: 	undefined - undefined - Cannot read properties of undefined (reading 'split') - /tasks/task - POST - ::1
